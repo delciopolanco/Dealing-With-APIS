@@ -8,3 +8,5 @@ Dealing With APIS is a non sense proyect that i just made in order to understand
 > 2. Handlebars
 > 3. Gulpjs
 > 4. NPM
+
+you can clone this repository and make changes to it, for me it is ok.
