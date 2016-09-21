@@ -1,0 +1,28 @@
+<div class="message-head clearfix">
+    <div class="avatar pull-left">
+        <a href="./index.php?qa=user&qa_1=Oleg+Kolesnichenko">
+        <img src="{{picture}}"></a>
+    </div>
+    <div class="user-detail">
+        <h5 class="handle">{{name}}</h5>
+        <div class="post-meta">
+            <div class="asker-meta">
+                <span class="qa-message-what"></span>
+                <span class="qa-message-when">
+                    <span class="qa-message-when-data">{{shortFormatDate date}}</span>
+                </span>
+                <span class="qa-message-who">
+                          <span class="qa-message-who-pad">by </span>
+                <span class="qa-message-who-data">
+                        <a href="./index.php?qa=user&qa_1=Oleg+Kolesnichenko">{{name}}</a></span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="qa-message-content">
+   {{description}}
+   <div class="picture">
+       <img src="{{image.src}}" class="img-responsive"/>
+   </div>
+</div>

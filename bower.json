@@ -1,0 +1,49 @@
+{
+  "name": "DWSN",
+  "description": "Dealing with social networks",
+  "main": "index.html",
+  "authors": [
+    "delcio polanco"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "facebook",
+    "twitter",
+    "google+",
+    "apis"
+  ],
+  "homepage": "https://www.facebook.com/manuel.polanco3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "underscore": "^1.8.3",
+    "backbone": "^1.3.3",
+    "bootstrap": "^3.3.7",
+    "handlebars": "^4.0.5",
+    "moment": "^2.15.0"
+  },
+  "install": {
+    "path": {
+      "css": "app/css/",
+      "js": "app/libs",
+      "eot": "app/css/fonts",
+      "svg": "app/css/fonts",
+      "ttf": "app/css/fonts",
+      "woff": "app/css/fonts",
+      "woff2": "app/css/fonts"
+    },
+    "sources": {
+      "bootstrap": [
+        "bower_components/bootstrap/dist/css/bootstrap.css",
+        "bower_components/bootstrap/dist/js/bootstrap.js",
+        "bower_components/bootstrap/fonts/*.*"
+      ]
+    }
+  }
+}
